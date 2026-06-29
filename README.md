@@ -17,15 +17,13 @@ npm run preview   # podgląd builda produkcyjnego
 
 Brak backendu — wszystkie dane są mockowane lokalnie w `src/data/mock.js`.
 
-> **Uwaga:** Kod źródłowy znajduje się w folderze `src/`. Folder `dist/` zawiera zminifikowany build produkcyjny — do oceny kodu należy używać `src/`.
+> **Uwaga:** Kod źródłowy znajduje się w folderze `src/`. Folder `dist/` zawiera zminifikowany build produkcyjny.
 
 ---
 
 ## Co zostało zbudowane
 
-### A — Kreator onboardingu ✅ (priorytet: WYMAGANE, w pełni dopracowany)
-
-Przepływ 5-krokowy:
+### A — Kreator onboardingu 
 
 1. **Powitanie** — ekran hero z logo, hasłem przewodnim, podglądem kroków i CTA
 2. **Połącz źródło** — 8 typów źródeł (PostgreSQL, S3, Google Drive…), formularz z symulowanym testem połączenia (bezczynny → łączenie → sukces/błąd z opóźnieniem 1,8 s)
@@ -33,7 +31,7 @@ Przepływ 5-krokowy:
 4. **Przejrzyj i uruchom** — podsumowanie wszystkich wyborów przed potwierdzeniem
 5. **Postęp skanu** — animowany pasek postępu, przewijany log konsolowy z datownikami i typami wiadomości, podgląd wstępnych wyników po 60%, podsumowanie zakończenia z CTA do panelu lub szczegółów skanu
 
-### B — Skany ✅
+### B — Skany 
 
 - Lista z wyszukiwaniem i filtrem statusu
 - Kolorowe chipy statusu z animowaną pulsującą kropką dla aktywnych skanów
@@ -41,7 +39,7 @@ Przepływ 5-krokowy:
 - Modal szybkiego startu do dodania skanu z poziomu listy
 - Widok szczegółu: karta postępu dla aktywnych, karta błędu dla nieudanych, wiersz statystyk + filtrowalna tabela wyników dla zakończonych
 
-### C — Panel główny ✅
+### C — Panel główny 
 
 - 6 kart KPI ze wskaźnikami trendu
 - Wykres słupkowy — wykryte elementy w czasie (widok 6-miesięczny)
@@ -49,7 +47,7 @@ Przepływ 5-krokowy:
 - Poziome paski — elementy według kategorii
 - Kanał ostatniej aktywności z kolorowym oznaczeniem typów zdarzeń
 
-### D — Raporty ✅
+### D — Raporty 
 
 - Siatka kart z chipami statusu i podglądami opisów
 - Dwuetapowy kreator generowania: wybierz skan → edytuj sekcje → zapisz
