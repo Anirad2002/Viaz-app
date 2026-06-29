@@ -1,7 +1,5 @@
 # Viaz — Platforma Analizy Danych
 
-> Zadanie rekrutacyjne — Frontend Developer
-
 W pełni funkcjonalny prototyp frontendu zbudowany w **Vue 3 + Vuestic UI**, implementujący kreator onboardingu, zarządzanie skanami, panel główny i przeglądarkę raportów dla platformy do wykrywania wrażliwych danych.
 
 ---
