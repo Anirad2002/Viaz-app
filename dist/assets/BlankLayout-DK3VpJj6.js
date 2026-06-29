@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{o as t,c as a,C as s}from"./index-0f9ylDOP.js";const n={},r={class:"blank-layout"};function c(e,_){return t(),a("div",r,[s(e.$slots,"default",{},void 0,!0)])}const l=o(n,[["render",c],["__scopeId","data-v-af67a70f"]]);export{l as default};
